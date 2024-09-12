@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(20,20,20);
+
+}
+/* Custom CSS */
+body.custom-style {
+    background-color: rgb(20,20,20); /* Example style */
+  }
+  
+html{
+    background-color: rgb(20,20,20);
+
+}
+/* Basic styling for carousel */
+.carousel {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .carouselinner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .carousel-item {
+      /* On small screens, maintain the same behavior */
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    /* Additional styling for larger screens if needed */
+  }
+  
+/* Ensure the carousel container is responsive */
+.custom-carousel {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  /* Hide non-active items and transition smoothly */
+  .carousel-inner1 {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  
+* {
+    background-color: rgb(20,20,20);
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans Caption", sans-serif;
+}
+a{
+    text-decoration: none;
+ }
+ .whatsapp1{
+    color:  rgb(37, 211, 102);
+ 
+ }
+ .whatsapp{
+    color:  rgb(37, 211, 102);
+    font-size:xx-large;
+ 
+ }
+ .linkedin{
+ color: rgb(10, 102, 194);
+ font-size:xx-large;
+ 
+ }
+ .facebook{
+    color: rgb(24, 119, 242);
+    font-size:xx-large;
+ }
+ .insta{
+    color: rgb(225, 48, 108);
+    font-size:xx-large;
+ 
+ }
+ .github{
+  color: white;
+  font-size:xx-large;
+ 
+ }
+ .touch{
+    text-align: center;
+    background-color: rgb(20,20,20);
+ }
+ .touch>h2{
+    font-size: xx-large;
+    color: orangered;
+ }
+.salt{
+    display: flex;
+    background-color: rgb(20,20,20);
+
+    padding-bottom  : 100px;
+}
+.about{
+    width: 50%;
+    color: white;
+}
+.about>h1{
+color: orangered;
+padding-top: 10px;
+text-align: center;
+font-size: xx-large;
+}
+.about>p{
+    width: 100%;
+    margin-top: 50px;
+    color: gray;
+    margin-left: 10px;  
+}
+.main>h1{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+.carousel {
+    position: relative;
+    width: 50%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-item {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.carousel-item.active {
+    position: relative;
+}
+
+@media screen  and (max-width:780px) {
+    .salt{
+        display: inline-block;
+    }
+    .about{
+        width: 100%;
+        color: white;
+    }
+    .carousel {
+        width: 100%;
+    }
+    .about>h1{
+        color: orangered;
+        
+        }
+.about>p{
+    margin-left: 0px;
+}
+.custom-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+}

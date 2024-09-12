@@ -1,0 +1,1271 @@
+body{
+    font-family: "PT Sans Caption", sans-serif;
+     color:white;
+     margin: 0%;
+     padding: 0%;
+     background-color: black;
+}
+h1,h2,h3,h4,h5,h6,p,li,div{
+    margin: 0%;
+    padding: 0%;
+}
+#nav-icons{
+    display: none;
+}
+.nav{
+    width: 100%;
+    background-color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.ul{
+    width: 70%;
+}
+.content{
+    width: 100%;
+    display: flex;
+    background-color: rgb(20,20,20);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro{
+   width: 50%;
+}
+.img{
+    width: 50%;
+}
+.intro>h2{
+    color: white;
+}
+.intro>h2>b{
+ color: orangered;
+}
+.img{
+width: 50%;
+}
+.h2{  
+    text-align: center;
+    font-size: xx-large;
+    color: orangered;
+    padding-bottom: 20px;
+    background-color: rgb(20,20,20);
+margin-top: 5px;
+
+}
+.skilmn{
+    background-color: rgb(20,20,20);
+    margin-bottom: 10px;
+
+}
+.skilmn>h2{
+    padding-top: 20px;
+    text-align: center;
+
+
+}
+
+#html{
+    color: #E34F26;
+    font-size: 50px;
+}
+#css{
+    color: #1572B6;
+    font-size: 50px;
+}
+.h1{
+    background-color: rgb(20,20,20);
+}
+
+#js{
+    font-size: 50px;
+    color: #F7DF1E;
+}
+#boot{
+    color:  #7952B3;
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.whatsapp1{
+    color:  rgb(37, 211, 102);
+
+}
+.whatsapp{
+    color:  rgb(37, 211, 102);
+    font-size:xx-large;
+
+}
+.linkedin{
+color: rgb(10, 102, 194);
+font-size:xx-large;
+
+}
+.facebook{
+    color: rgb(24, 119, 242);
+    font-size:xx-large;
+    border: 0px;
+}
+.insta{
+    color: rgb(225, 48, 108);
+    font-size:xx-large;
+
+}
+.github{
+  color: white;
+  font-size: xx-large;
+text-align: center;
+}
+.servise{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(20,20,20);
+}
+li:hover{
+    color: orangered;
+    text-decoration: 5px underline;
+}
+.head >h1:hover{
+    color: orangered;
+}
+.about1>h4{
+    text-align: center;
+    font-size: xx-large;
+}
+#para{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+}
+.Project>h4{
+    color: orangered;
+    font-size: xx-large;
+    text-align: center;
+}
+.Project>p{
+    color: gray;
+}
+.footer{
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+}
+.footer>p{
+    text-align: center;
+    color: gray;
+    font-size: large;
+    width: 50%;
+}
+.footer>h2{
+    font-size: xx-large;
+}
+.email >img{
+   font-size: x-large;
+   height:4.5vh;
+}
+/*
+.servise{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+
+}
+.h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.e-commerce{
+    width: 30%;
+}
+.e-commerce>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.e-commerce>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.e-commerce>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.resp{
+    width: 30%;
+}
+.resp>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.resp>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.resp>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.land{
+    width: 30%;
+}
+.land>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.land>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.land>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.red{
+    width: 30%;
+}
+.red>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.red>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.red>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.cos{
+    width: 30%;
+}
+.bootstrap{
+    width: 30%;
+}
+.cos>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.cos>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.cos>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.bootstrap>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.bootstrap>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.bootstrap>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}*/
+@media screen  and (max-width:480px) {
+   .footer{
+    padding-top: 20px;
+    display: block;
+    }   
+    .footer>p{
+        width: 100%;
+    }
+    #nav-icons{
+        display: block;
+    }
+.touch{
+    padding-top: 0px;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+    .email >img{
+        font-size: x-large;
+        height:3.5vh;     
+     }
+    li{
+    display: block;
+            list-style-type:none;
+            padding-top: 10px;
+    }
+    .head{
+        width: 100%;
+    }
+    
+    .head>h1{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .ul{
+        display: block;
+        font-size: x-large;
+        margin-top: 3px;
+        padding-right: 1px;
+        width: 70%;
+        margin-top: 10px;
+        text-align: center;
+        margin-left: 15%;
+        display: none;
+    }
+
+    .intro{
+        margin-top: 0px;
+    }
+    .intro>h2{
+     font-size: medium;
+    }
+    .intro>h2>b{
+     font-size: x-large;
+    }
+    .intro>p{
+        font-size: small;
+        color:gray;
+        padding-top: px;
+    }
+    .img>img{
+        width: 100%;
+     height: 100%;
+     border-radius:100%;
+     border: 1px solid orangered;
+     background-color: black;
+    }
+    .icon{
+        margin-top: 10px;
+    }
+    .icon>h4{
+        font-size: x-large;
+    }
+    .about1{
+        width: 100%;
+        color: gray ;
+        margin-top: 50px;
+       }
+       .about1>h4{
+           text-align: center;
+           font-size: xx-large;
+           color: orangered;
+           padding-bottom: 20px;
+       }
+       .h1{
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        font-size: x-large;
+    }
+       .e-commerce{
+        width: 100%;
+    }
+        .e-commerce>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 5px;
+        }
+        .e-commerce>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .e-commerce>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        
+        .resp{
+            width: 100%;
+        }
+        .resp>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+        .resp>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .resp>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        .land{
+            width: 100%;
+        }
+        .land>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+        .land>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .land>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        .red{
+            width: 100%;
+        }
+        .red>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+        .red>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .red>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        .cos{
+            width: 100%;
+        }
+        .bootstrap{
+            width: 100%;
+        }
+        .cos>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+            padding-top: 5px;
+
+        }
+        .cos>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .cos>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        
+        .bootstrap>h4{
+            color: orangered;
+            font-size: x-large;
+            text-align: center;
+        }
+        .bootstrap>img{
+            width: 35%;
+            height: 15vh;
+            margin-left: 35%;
+        }
+        .bootstrap>p{
+            color: gray;
+            width: 100%;
+            padding-left: 5px;
+        }
+        .skills{
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            margin-top: 20px;
+        }
+        .skills>div>img{
+            width: 100%; 
+        }
+        .skills>div>p{
+            font-size: medium;
+            width: 100%;
+            text-align: center;
+    }
+ 
+}
+
+    @media screen and (min-width: 481px) and (max-width:799px) {
+      
+        body{
+            width: 100%;
+            font-family: "PT Sans Caption", sans-serif;
+        color: white;
+        margin-left: 0px;
+        margin-right: 5px;
+        margin-top: 2px;
+     }
+     .skills{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .skills>div>img{
+        width: 100%; 
+    }
+    .skills>div>p{
+        font-size: medium;
+        width: 100%;
+        text-align: center;
+}
+     .footer{
+        padding-top: 20px;
+        display: block;
+        }   
+        .footer>p{
+            width: 100%;
+        }
+    .touch{
+        padding-top: 0px;
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }  
+    .email >img{
+        font-size: x-large;
+        height:3.5vh;
+        margin-top: 50px;
+     
+     }
+    .nav{
+        width: 100%;
+        font-size:30px;
+        background-color: black;
+        display: inline-block;
+    }
+    li{
+    display:block;
+            list-style-type:none;
+            margin-left: 10px;
+            margin-top: 10px;
+    }
+    .head{
+        width: 100%;
+    
+    }
+    .head>img{
+        display: block; 
+        height: 20vh;
+        width: 30%;
+        margin-left: px;
+        position: absolute;
+    top: 2px;
+    }
+    .head>h1{
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .ul{
+        font-size:large;
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+    display:block;
+    }
+    
+    #icon1{
+        display: none;
+    }
+    
+    .content{
+        display: flex;
+    }
+    .intro{
+    margin-top: 70px;
+    margin-left: 30px;
+    height: fit-content;
+    }
+    .intro>h2{
+          font-size: large;
+          padding-top: 100px;
+    }
+    .intro>h2>b{
+     font-size: xx-large;
+     margin-top: 50px;
+    }
+    .intro>p{
+        color: gray;
+        padding-top: 10px;
+    }
+    .img>img{
+     border: 5px solid orangered;
+     border-radius: 100%;
+     margin-top: 70px;
+     height: 60%;
+     width: 60%;
+    }
+    .icon{
+        margin-bottom: 100px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .icon>h4{
+        font-size: xx-large;
+    }
+
+    .about1{
+        width: 100%;
+        color: gray ;
+        margin-top: 50px;
+       }
+       .about1>h4{
+           text-align: center;
+           font-size: xx-large;
+           color: orangered;
+           padding-bottom: 20px;
+       }
+      
+    .Project>h4{
+        margin-top: 10px;
+        text-align: center;
+        
+    
+    }
+    .Project>p{
+        width: 95%;
+        padding-top: 20px;
+    }
+.e-commerce{
+    width: 100%;
+}
+    .e-commerce>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .e-commerce>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .e-commerce>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+    
+    .resp{
+        width: 100%;
+    }
+    .resp>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .resp>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .resp>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .land{
+        width: 100%;
+    }
+    .land>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .land>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .land>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .red{
+        width: 100%;
+    }
+    .red>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .red>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .red>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+    .cos{
+        width: 100%;
+    }
+    .bootstrap{
+        width: 100%;
+    }
+    .cos>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .cos>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .cos>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+    
+    .bootstrap>h4{
+        color: orangered;
+        font-size: x-large;
+        text-align: center;
+        padding-top: 5px;
+
+    }
+    .bootstrap>img{
+        width: 35%;
+        height: 15vh;
+        margin-left: 35%;
+    }
+    .bootstrap>p{
+        color: gray;
+        width: 100%;
+        padding-left: 5px;
+    }
+}
+    @media screen and (min-width: 800px) and (max-width: 1366px) {
+      .icon-navbar{
+        display: none;
+      }
+      .menu-icon{
+        display: none;
+      }
+    .nav{ 
+        font-size:30px;
+        background-color: black;
+        display: flex;
+        height: auto;
+    }
+    li{
+    display: inline;
+            margin-left: 20px;
+    }
+    .head{
+    width: 30%;
+    }
+    .head>h1{
+        text-align: center;
+        color: white;
+        padding-top: 10px;
+    }
+    .ul{
+        font-size:x-large;
+        display: inline;
+        margin-left: 100px;
+    }
+    
+    #icon1{
+        display: none;
+    }
+    
+    .content{
+        display: flex;
+    }
+    .intro{
+    margin-top: 100px;
+    margin-left: 100px;
+    height: fit-content;
+    }
+    .intro>h2{
+          font-size: large;
+          padding-top: 100px;
+    }
+    .intro>h2>b{
+     font-size: xx-large;
+     margin-top: 50px;
+    }
+    .intro>p{
+        color: gray;
+        padding-top: 10px;
+    }
+    .img>img{
+     border: 5px solid orangered;
+     border-radius: 100%;
+     margin-top: 100px;
+     margin-left: 50px;
+    }
+    .icon{
+        margin-bottom: 100px;
+        padding-top: 50px;
+        margin-left: 30px;
+    }
+    .icon>h4{
+        font-size: xx-large;
+    }
+
+    .about1{
+        width: 50%;
+        color: gray ;
+        margin-top: 30px;
+        margin-left: 300px;
+       }
+       .about1>h4{
+           text-align: center;
+           font-size: xx-large;
+           color: orangered;
+           padding-bottom: 20px;
+       }
+.Project{
+    width: 50%;
+    margin-left: 300px;
+}
+    .Project>h4{
+        margin-top: 10px;
+        text-align: center;
+    }
+.Project>p{
+   /* margin-left:300px;*/
+    padding-top: 20px;
+}
+.Project1>img{
+    width: 100%;
+}
+.Project1{
+    display: flex;
+}
+.Project1>h4{
+    margin-top: 10px;
+    text-align: center;
+}
+.Project1>p{
+width: 50%;
+margin-left:300px;
+padding-top: 20px;
+}
+
+.servise{
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    gap: 50px;
+    background-color: rgb(20,20,20)
+
+}
+.h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: x-large;
+    text-decoration: 7px underline orangered;
+        background-color: rgb(20,20,20)
+}
+.e-commerce{
+    width: 30%;
+}
+.e-commerce>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.e-commerce>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.e-commerce>p{
+    color:white;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.resp{
+    width: 30%;
+}
+.resp>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.resp>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.resp>p{
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+.land{
+    width: 30%;
+}
+.land>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.land>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.land>p{
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+.red{
+    width: 30%;
+}
+.red>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.red>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.red>p{
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+.cos{
+    width: 30%;
+}
+.bootstrap{
+    width: 30%;
+}
+.cos>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.cos>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.cos>p{
+    color: white;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.bootstrap>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.bootstrap>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.bootstrap>p{
+    color:white;
+    width: 100%;
+    padding-left: 5px;
+}
+.footer{
+    padding-top: 20px;
+}
+.touch{
+    margin-left: 200px;
+}
+.skills{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+}
+.nav-icons{
+
+  }
+}  
+     /* for large screem */
+    
+    
+    @media (min-width: 1367px) {
+        .nav-icon{
+            display: none;
+          }
+          
+        .skills{
+            display: flex;
+            gap: 50px;
+            width: 100%;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        .nav{ 
+            font-size:30px;
+            background-color: black;
+            display: flex;
+            height: auto;
+        }
+        .footer{
+            padding-top: 20px;
+        }
+        .touch{
+            margin-left: 200px;
+        }
+        li{
+        display: inline;
+                margin-left: 20px;
+        }
+        .head{
+        }
+        .head>img{
+            display: none;
+            
+        }
+        .head>h1{
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+        .ul{
+            font-size:x-large;
+            display: inline;
+            margin-left: 100px
+        }
+        
+        #icon1{
+            display: none;
+        }
+        .intro{
+            margin-top: 100px;
+            margin-left: 100px;
+            height: fit-content;
+            }
+            .intro>h2{
+                  font-size: large;
+                  padding-top: 100px;
+            }
+            .intro>h2>b{
+             font-size: xx-large;
+             margin-top: 50px;
+            }
+            .intro>p{
+                color: gray;
+                padding-top: 10px;
+            }
+            .img>img{
+             border: 5px solid orangered;
+             border-radius: 100%;
+             margin-top: 100px;
+             margin-left: 50px;
+            }
+            .icon{
+                margin-bottom: 100px;
+                padding-top: 50px;
+                margin-left: 30px;
+            }
+            .icon>h4{
+                font-size: xx-large;
+                color: orangered;
+            }
+            .about1{
+                width: 50%;
+                color: gray ;
+                margin-top: 30px;
+                margin-left: 300px;
+                text-align: center;
+               }
+               .about1>h4{
+                   text-align: center;
+                   font-size: xx-large;
+                   color: orangered;
+                   padding-bottom: 20px;
+               }
+               .Project{
+                width: 50%;
+                margin-left: 300px;
+            }
+            .Project>h4{
+                margin-top: 10px;
+                text-align: center;
+            }
+        .Project>p{
+            padding-top: 20px;
+        }
+        
+.servise{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+
+}
+.h1{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.e-commerce{
+    width: 30%;
+}
+.e-commerce>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.e-commerce>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.e-commerce>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.resp{
+    width: 30%;
+}
+.resp>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.resp>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.resp>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.land{
+    width: 30%;
+}
+.land>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.land>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.land>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.red{
+    width: 30%;
+}
+.red>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.red>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.red>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+.cos{
+    width: 30%;
+}
+.bootstrap{
+    width: 30%;
+}
+.cos>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.cos>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.cos>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.bootstrap>h4{
+    color: orangered;
+    font-size: x-large;
+    text-align: center;
+}
+.bootstrap>img{
+    width: 25%;
+    height: 15vh;
+    margin-left: 35%;
+}
+.bootstrap>p{
+    color: gray;
+    width: 100%;
+    padding-left: 5px;
+}
+        
+        }
+      
+    

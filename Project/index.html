@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/8dd8a19338.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main">
+        <h1>"Transforming Ideas into Reality"</h1>
+        <div class="salt">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./Screenshot 2024-08-26 204230.png" class="d-block w-100" alt="Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160201.png" class="d-block w-100" alt="Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160224.png" class="d-block w-100" alt="Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160253.png" class="d-block w-100" alt="Image 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160317.png" class="d-block w-100" alt="Image 5">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160344.png" class="d-block w-100" alt="Image 7">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./Screenshot 2024-09-10 160402.png" class="d-block w-100" alt="Image 8">
+                    </div>
+                </div>
+            </div>
+            <script>
+           let currentIndex = 0;
+            const items = document.querySelectorAll('.carousel-item');
+            
+            function showSlide(index) {
+                items.forEach((item, i) => {
+                    item.classList.remove('active');
+                    if (i === index) {
+                        item.classList.add('active');
+                    }
+                });
+            }
+            
+            function autoSlide() {
+                currentIndex = (currentIndex + 1) % items.length; // Loop through 8 images
+                showSlide(currentIndex);
+            }
+            
+            // Start the automatic slide show
+            setInterval(autoSlide, 4000);
+            
+                        </script> 
+
+            <div class="about">
+            <h1>Salt & Pepper: A Modern Restaurant Website</h1>
+            <p>The Salt & Pepper website is a sleek and fully responsive design tailored for a modern restaurant experience. Built using HTML, CSS, and media queries, this project showcases my attention to detail and focus on creating a user-friendly interface. From stylish menu layouts to an intuitive booking system, this site provides a seamless experience for visitors on both desktop and mobile devices.
+                ncorporating stunning visuals and clean typography, the design reflects the brand's upscale feel while ensuring fast load times and easy navigation. The website also features dynamic sections like chef specials and customer reviews to engage users and enhance their browsing experience. Overall, this project demonstrates my ability to blend creativity with functionality in web design.
+            </p>
+        </div>
+        </div>
+    </div>
+    <div class="salt">
+        <div class="about">
+         <h1>"Amplify Your Style: RJ-Inspired E-Commerce"</h1>
+         <p>This project demonstrates my ability to design and develop a fully functional e-commerce platform tailored for radio enthusiasts. I utilized HTML, CSS, and Bootstrap to create a visually engaging, responsive design. My focus on user experience ensured smooth navigation, while the implementation of secure payment gateways highlights my understanding of e-commerce functionality. The website also features product filtering, a shopping cart system, and dynamic content, showcasing my attention to detail and technical skills in front-end development.</p>
+   </div>
+   <div id="customCarousel" class="custom-carousel">
+    <div class="carousel-inner1">
+      <div class="carousel-item active">
+        <img src="./R1 (7).png" class="d-block w-100" alt="Image 1">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (1).png" class="d-block w-100" alt="Image 2">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (2).png" class="d-block w-100" alt="Image 3">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (3).png" class="d-block w-100" alt="Image 4">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (4).png" class="d-block w-100" alt="Image 5">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (5).png" class="d-block w-100" alt="Image 6">
+      </div>
+      <div class="carousel-item">
+        <img src="./R1 (6).png" class="d-block w-100" alt="Image 7">
+      </div>
+    </div>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.querySelector('#customCarousel');
+    const items = carousel.querySelectorAll('.carousel-item');
+    let currentIndex = 0;
+    const totalItems = items.length;
+
+    function showSlide(index) {
+        items.forEach((item, i) => {
+            item.classList.remove('active');
+            if (i === index) {
+                item.classList.add('active');
+            }
+        });
+        // Adjust the carousel-inner to shift the items
+        const offset = -index * 100;
+        carousel.querySelector('.carousel-inner').style.transform = `translateX(${offset}%)`;
+    }
+
+    function autoSlide() {
+        currentIndex = (currentIndex + 1) % totalItems;
+        showSlide(currentIndex);
+    }
+
+    setInterval(autoSlide, 4000); // Change slide every 3 seconds
+});
+</script>
+    </div>
+<div class="salt">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Brzilin (2).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (3).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (4).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (5).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (6).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (7).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Brzilin (1).png" class="d-block w-100" alt="...">
+          </div>
+          
+        </div>
+      </div>
+      <div class="about">
+        <h1>
+        <h1>Brzlin Agency Project Showcase</h1>
+        <p>Explore the innovative project I've developed for Brzlin Agency. This showcase highlights my dedication to delivering cutting-edge digital solutions tailored to client needs.
+            In this project, I focused on blending aesthetic design with functional performance to create a seamless user experience. My approach involved meticulous planning and execution, incorporating the latest web technologies and best practices. From the initial concept to the final product, I worked diligently to ensure every detail was perfected.</p>
+      </div>
+</div>
+<div class="salt">
+    <div class="about">
+        <h1>"YouTube Clone: A Comprehensive Platform for Video Sharing"</h1>
+        <p>Dive into my YouTube clone project, a robust and dynamic platform designed to replicate the core functionalities of YouTube. This project showcases my skills in creating a fully-featured video sharing website, complete with user accounts, video uploads, and interactive comments.
+
+            In developing this clone, I focused on delivering a user-friendly experience by implementing intuitive navigation and responsive design. The platform supports video playback, user subscriptions, and personalized recommendations, mirroring the key elements of the original YouTube experience. This project highlights my ability to build complex web applications and integrate various features to enhance user engagement and functionality.</p>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./yt (1).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./yt (2).png  " class="d-block w-100" alt="...">
+          </div>
+        </div>
+        </div>
+</div>
+<div class="salt">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./fb (1).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fb (2).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./fb (3).png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="about">
+        <h1>"Facebook Clone: A Dynamic Social Networking Platform"</h1>
+        <p>
+
+        Certainly! Here’s a heading and a paragraph for showcasing your Facebook clone project:
+
+        "Facebook Clone: A Dynamic Social Networking Platform"
+        Explore my Facebook clone project, a feature-rich social networking site designed to emulate the core functionalities of Facebook. This project demonstrates my proficiency in creating a comprehensive social platform that includes user profiles, friend connections, and real-time news feeds.
+        
+        In this clone, I focused on delivering an engaging user experience by incorporating key features such as profile management, status updates, and interactive messaging. The platform also includes photo sharing and comment sections, providing a full-fledged social media experience similar to the original Facebook. This project highlights my capability to develop complex web applications and implement social networking features with attention to detail.      
+        </p>
+    </div>
+
+    </div>
+    </div>
+</div>
+
+<div class="touch">
+    <h2>Get in touch</h2>
+    <a href="https://wa.me/923213928381" class="whatsapp"> <i class="fa-brands fa-whatsapp"></i></a>
+    <a href="https://www.facebook.com/moizkhan" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/abdul-moiz-khan-1662612a6/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/moizz.xyz/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/moiz-xyz" class="github"><i class="fa-brands fa-github"></i></a></div>
+ </div>
+</body>
+</html>
