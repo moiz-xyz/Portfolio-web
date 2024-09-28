@@ -9,9 +9,6 @@ h1,h2,h3,h4,h5,h6,p,li,div{
     margin: 0%;
     padding: 0%;
 }
-.head{
-positon :fixed;
-}
 #nav-icons{
     display: none;
 }
@@ -20,6 +17,7 @@ positon :fixed;
     background-color: black;
         background-repeat: no-repeat;
         background-size: cover;
+    position: fixed; 
 }
 .ul{
     width: 70%;
