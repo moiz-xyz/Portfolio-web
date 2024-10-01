@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6,p,li,div{
     background-color: black;
         background-repeat: no-repeat;
         background-size: cover;
-    position: fixed; 
 }
 .ul{
     width: 70%;
