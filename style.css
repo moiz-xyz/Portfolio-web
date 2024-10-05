@@ -562,8 +562,23 @@ li:hover{
         width: 100%;
         font-size:30px;
         background-color: black;
-        display: inline-block;
+        display: none;
     }
+        .nav-mobile {
+           color: white;
+    background-color: black;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    height: 50vh;
+    width: 250px;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+    display: none; /* Initially hidden */
+        }
     li{
     display:block;
             list-style-type:none;
@@ -793,6 +808,9 @@ li:hover{
         display: flex;
         height: auto;
     }
+        .nav-mobile {
+        display: none;
+        }
     li{
     display: inline;
             margin-left: 20px;
@@ -1053,6 +1071,9 @@ padding-top: 20px;
             background-color: black;
             display: flex;
             height: auto;
+        }
+        .nav-mobile{
+         display: none
         }
         .footer{
             padding-top: 20px;
