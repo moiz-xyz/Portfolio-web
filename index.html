@@ -10,6 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/8dd8a19338.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="./script.js">
+    <script>
+        function show() {
+    const slidebar = document.querySelector(".nav-mobile");
+    const bars = document.getElementById("bars");
+    const cross = document.getElementById("cross");
+
+    slidebar.style.display = "flex";
+    bars.style.display = "none";
+    cross.style.display = "block";
+}
+
+function hideslider() {
+    console.log("Hide function triggered");
+    const slidebar = document.querySelector(".slidebar");
+    const bars = document.getElementById("bars");
+    const cross = document.getElementById("cross");
+
+    slidebar.style.display = "none";
+    bars.style.display = "block";
+    cross.style.display = "none";
+}
+    </script>
 </head>
 <body> 
     <div>
@@ -27,10 +49,8 @@
     </div>
     </nav>
 <!--  nav bar of mobile  -->
-        <i id="bars" class="fa-solid fa-bars"></i>
+        <i onclic="show" id="bars" class="fa-solid fa-bars"></i>
         <div class="nav-mobile">
-     <div class="head"><h1><\>Portfolio</h1>
-    </div> 
     <div class="ul"><ul>
       <a href="./index.html"><li>Home</li> </a>
        <a href="./Services/index.html"><li>About </li></a>
@@ -47,7 +67,7 @@
           <p> A budding web developer currently mastering full-stack development. With a strong foundation in HTML,CSS,JavaScript & bootstrap</p>
           <div class="icon">
             <h4>Connect me at</h4>
-            <a href="https://www.facebook.com" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100068863072535&mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.linkedin.com/in/abdul-moiz-khan-1662612a6/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.instagram.com/moizz.xyz/" class="insta"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/moiz-xyz" class="github"><i class="fa-brands fa-github"></i></a>
@@ -243,7 +263,7 @@
     <h2>Get in touch</h2>
     <a href="https://wa.me/923213928381" class="whatsapp"> <i class="fa-brands fa-whatsapp"></i></a>
     <a href="mailto:a.moizniaxi@gmial.com" class="email"><img src="./gmail.png" alt=""></a>
-    <a href="https://www.facebook.com/moizkhan" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.facebook.com/profile.php?id=100068863072535&mibextid=ZbWKwL" class="facebook"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://www.linkedin.com/in/abdul-moiz-khan-1662612a6/" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://www.instagram.com/moizz.xyz/" class="insta"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://github.com/moiz-xyz" class="github"><i class="fa-brands fa-github"></i></a></div>
