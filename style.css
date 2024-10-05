@@ -300,6 +300,31 @@ li:hover{
     #nav-icons{
         display: block;
     }
+    .nav{
+        display:none;
+    }
+      .nav-mobile {
+           color: white;
+    background-color: black;
+    position: fixed;
+    top: 10px;
+    right: 0;
+    height: 50vh;
+    width: 250px;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+    display: none; /* Initially hidden */
+        }
+        #bars{
+    margin-top: 10px;
+    font-size: 30px;
+position: fixed;
+top: 0;
+right: 0;
+}
 .touch{
     padding-top: 0px;
     margin-top: 30px;
@@ -564,6 +589,8 @@ li:hover{
         background-color: black;
         display: none;
     }
+        .ul{
+        display:none}
         .nav-mobile {
            color: white;
     background-color: black;
@@ -579,6 +606,13 @@ li:hover{
     backdrop-filter: blur(10px);
     display: none; /* Initially hidden */
         }
+        #bars{
+    margin-top: 10px;
+    font-size: 30px;
+position: fixed;
+top: 0;
+right: 0;
+}
     li{
     display:block;
             list-style-type:none;
@@ -1047,9 +1081,8 @@ padding-top: 20px;
     margin-top: 20px;
     justify-content: center;
 }
-.nav-icons{
-
-  }
+#bars{
+    display: none }
 }  
      /* for large screem */
     
@@ -1285,7 +1318,8 @@ padding-top: 20px;
     width: 100%;
     padding-left: 5px;
 }
-        
+        #bars{
+diplay: none ;
         }
       
     
