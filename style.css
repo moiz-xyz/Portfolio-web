@@ -346,10 +346,11 @@ right: 0;
     }
     .head{
         width: 100%;
-    }
+        text-align: center;
+        height: 10vh;
+    }   
     
     .head>h1{
-        text-align: center;
         font-size: xx-large;
     }
     .ul{
