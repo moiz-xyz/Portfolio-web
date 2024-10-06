@@ -606,6 +606,7 @@ right: 0;
         width: 100%;
         font-size:30px;
         background-color: black;
+        display:flex
     }
         .ul-mobile{
         display:none}
@@ -639,6 +640,7 @@ right: 0;
     }
     .head{
         width: 100%;
+        position: fixed;
     
     }
     .head>img{
