@@ -606,9 +606,8 @@ right: 0;
         width: 100%;
         font-size:30px;
         background-color: black;
-        display: none;
     }
-        .ul{
+        .ul-mobile{
         display:none}
         .nav-mobile {
            color: white;
