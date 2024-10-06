@@ -21,9 +21,9 @@
     cross.style.display = "block";
 }
 
-function hideslider() {
+function hide() {
     console.log("Hide function triggered");
-    const slidebar = document.querySelector(".slidebar");
+    const slidebar = document.querySelector(".nav-mobile");
     const bars = document.getElementById("bars");
     const cross = document.getElementById("cross");
 
@@ -57,6 +57,7 @@ function hideslider() {
      <a href="./Project/index.html">   <li>Projects</li></a>
         <li> Contact me <a href="https://wa.me/923213928381" class="whatsapp1"> <i class="fa-brands fa-whatsapp"></i></a></li>
     </ul>
+        <i onclick ="hide()" id ="cross"  class="fa-solid fa-xmark"></i>
 </div>
     </div>
     
