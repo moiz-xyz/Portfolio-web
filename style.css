@@ -325,6 +325,14 @@ position: fixed;
 top: 0;
 right: 0;
 }
+        #cross {
+        font-size: 30px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: none; /* Initially hidden */
+    }
+
     .ul>ul>li{
  list-style-type: none;
     padding-top: 20px;
@@ -544,7 +552,14 @@ right: 0;
 }
 
     @media screen and (min-width: 481px) and (max-width:799px) {
-      
+          #cross {
+        font-size: 30px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: none; /* Initially hidden */
+    }
+
         body{
             width: 100%;
             font-family: "PT Sans Caption", sans-serif;
@@ -840,6 +855,9 @@ right: 0;
       .menu-icon{
         display: none;
       }
+        #cross{
+    display:none:
+        }
     .nav{ 
         font-size:30px;
         background-color: black;
@@ -1095,6 +1113,9 @@ padding-top: 20px;
         .nav-icon{
             display: none;
           }
+        #cross{
+    display:none:
+        }
           
         .skills{
             display: flex;
