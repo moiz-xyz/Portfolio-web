@@ -375,6 +375,8 @@ right: 0;
 
     .intro{
         padding-top: 20px;
+        border:1px solid red;
+        margin-topp:100px;
     }
     .intro>h2{
      font-size: medium;
