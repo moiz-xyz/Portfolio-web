@@ -358,7 +358,8 @@ right: 0;
     .head{
         width: 100%;
         height: 5vh;
-        background-color:black 
+        position:fixed;
+        background-color:black ;
     }   
     
     .head>h1{
@@ -376,7 +377,7 @@ right: 0;
     }
 
     .intro{
-        margin-top: 0px;
+        margin-top: 10px;
     }
     .intro>h2{
      font-size: medium;
